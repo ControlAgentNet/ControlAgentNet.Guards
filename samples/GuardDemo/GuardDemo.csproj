@@ -10,7 +10,6 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\ControlAgentNet.Guards.csproj" />
-    <ProjectReference Include="..\..\..\ControlAgentNet.Agents\src\ControlAgentNet.Core\ControlAgentNet.Core.csproj" />
   </ItemGroup>
 
   <ItemGroup>

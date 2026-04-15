@@ -107,3 +107,12 @@ dotnet build ControlAgentNet.Guards.slnx -c Release
 dotnet test ControlAgentNet.Guards.slnx -c Release --no-build
 dotnet pack ControlAgentNet.Guards.slnx -c Release -o artifacts/nuget
 ```
+
+## Versioning
+
+- local builds: `0.1.2-dev`
+- pull requests: `0.1.2-preview.<run_number>`
+- pushes to `main`: `0.1.2-alpha.<run_number>`
+- tags like `v0.1.2`: exact stable package version `0.1.2`
+
+See `VERSIONING.md` for the release flow.
