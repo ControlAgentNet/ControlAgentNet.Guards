@@ -110,9 +110,9 @@ dotnet pack ControlAgentNet.Guards.slnx -c Release -o artifacts/nuget
 
 ## Versioning
 
-- local builds: `0.1.4-dev`
-- pull requests: `0.1.4-preview.<run_number>`
-- pushes to `main`: `0.1.4-alpha.<run_number>`
-- tags like `v0.1.4`: exact stable package version `0.1.4`
+- local builds: `0.1.5-dev`
+- pull requests: `0.1.5-preview.<run_number>`
+- pushes to `main`: `0.1.5-alpha.<run_number>`
+- tags like `v0.1.5`: exact stable package version `0.1.5`
 
 See `VERSIONING.md` for the release flow.
