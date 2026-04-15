@@ -1,0 +1,11 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="ControlAgentNet.Guards.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ControlAgentNet.Guards.Tests/ControlAgentNet.Guards.Tests.csproj" />
+  </Folder>
+  <Folder Name="/samples/">
+    <Project Path="samples/GuardDemo/GuardDemo.csproj" />
+  </Folder>
+</Solution>
