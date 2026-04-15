@@ -9,7 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="ControlAgentNet.Core" Version="0.1.2" />
+    <PackageReference Include="ControlAgentNet.Core" Version="0.1.1" />
     <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="10.0.5" />
     <PackageReference Include="Microsoft.Extensions.Options" Version="10.0.5" />
   </ItemGroup>
@@ -19,6 +19,8 @@
     <None Remove="samples\**" />
     <Compile Remove="tests\**" />
     <None Remove="tests\**" />
+    <Compile Remove="ControlAgentNet.Agents\**" />
+    <None Remove="ControlAgentNet.Agents\**" />
   </ItemGroup>
 
 </Project>

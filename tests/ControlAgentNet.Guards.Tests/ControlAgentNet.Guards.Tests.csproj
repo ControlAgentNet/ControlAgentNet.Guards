@@ -24,6 +24,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\..\ControlAgentNet.Guards.csproj" />
+    <PackageReference Include="ControlAgentNet.Core" Version="0.1.1" />
   </ItemGroup>
 
 </Project>

@@ -16,6 +16,6 @@ This repository uses `VersionPrefix` from `Directory.Build.props` as the source 
 3. Create the tag:
 
 ```bash
-git tag v0.1.3
-git push origin v0.1.3
+git tag v0.1.4
+git push origin v0.1.4
 ```
