@@ -1,6 +1,12 @@
 # ControlAgentNet.Guards
 
-Tool execution guards for ControlAgentNet agents.
+<p align="center">
+  <img src="https://img.shields.io/github/license/ControlAgentNet/ControlAgentNet.Guards" alt="License">
+  <img src="https://img.shields.io/github/actions/workflow/status/ControlAgentNet/ControlAgentNet.Guards/ci.yml?branch=main" alt="CI">
+  <img src="https://img.shields.io/nuget/v/ControlAgentNet.Guards" alt="NuGet Version">
+</p>
+
+> Tool execution guards for ControlAgentNet agents.
 
 ## Features
 
