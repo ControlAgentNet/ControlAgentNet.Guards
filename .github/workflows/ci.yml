@@ -62,11 +62,11 @@ jobs:
             exit 1
           fi
 
-      - name: Restore
-        run: dotnet restore ControlAgentNet.Agents/ControlAgentNet.Agents.slnx
+      - name: Restore dependency project
+        run: dotnet restore ControlAgentNet.Agents/src/ControlAgentNet.Core/ControlAgentNet.Core.csproj
 
       - name: Pack dependency package locally
-        run: dotnet pack ControlAgentNet.Agents/ControlAgentNet.Agents.slnx -c Release -o local-packages /p:Version=${{ steps.base_version.outputs.base_version }}
+        run: dotnet pack ControlAgentNet.Agents/src/ControlAgentNet.Core/ControlAgentNet.Core.csproj -c Release -o local-packages /p:Version=${{ steps.base_version.outputs.base_version }}
 
       - name: Restore
         run: dotnet restore ControlAgentNet.Guards.slnx --source local-packages --source https://api.nuget.org/v3/index.json
